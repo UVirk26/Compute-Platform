@@ -26,22 +26,21 @@ Compute Platform is a web application that enables users to upload CSV or Excel 
 ## Installation
 
 ### Steps
-1. Clone the repository:
-   ```bash
-   git clone 
-   cd compute-platform
-   ```
-2. Install required dependencies:
+1. Download the zip file
+   Extract the zip file. Open the folder in your
+   code editor.
+   OR clone the respository.
+3. Install required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
-3. Change the API key:
+4. Change the API key:
    In the .env file type your Gemini Key.
-4. Start the development server:
+5. Start the development server:
    ```bash
    streamlit run app.py
    ```
-5. Open the web application in your browser:
+6. Open the web application in your browser:
    The webpage will run by default. If it did not, copy
    the link in your terminal and run on your browser.
    ```bash
